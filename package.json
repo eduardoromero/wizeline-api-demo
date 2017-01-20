@@ -1,0 +1,50 @@
+{
+  "name": "wizeline-api-demo",
+  "description": "Wizeline ChatBot Crashcourse - WS/API Demo",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src/",
+  "keywords": [
+    "feathers"
+  ],
+  "license": "MIT",
+  "repository": {},
+  "author": {},
+  "contributors": [],
+  "bugs": {},
+  "engines": {
+    "node": ">= 6.0   .0"
+  },
+  "scripts": {
+    "test": "npm run jshint && npm run mocha",
+    "jshint": "jshint src/. test/. --config",
+    "start": "node src/",
+    "mocha": "mocha test/ --recursive",
+    "watch": "nodemon src/"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "feathers": "^2.0.2",
+    "feathers-authentication": "^0.7.12",
+    "feathers-configuration": "^0.3.3",
+    "feathers-errors": "^2.5.0",
+    "feathers-hooks": "^1.6.1",
+    "feathers-memory": "^1.0.1",
+    "feathers-rest": "^1.5.2",
+    "feathers-rethinkdb": "^0.3.2",
+    "feathers-socketio": "^1.4.2",
+    "passport": "^0.3.2",
+    "rethinkdbdash": "^2.3.27",
+    "serve-favicon": "^2.3.2",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "axios": "^0.15.2",
+    "jshint": "^2.9.4",
+    "mocha": "^3.1.2",
+    "request": "^2.79.0"
+  }
+}
